@@ -7,12 +7,14 @@
 //
 
 #include <iostream>
-
+#include "Clase.h"
 int main(int argc, const char * argv[])
 {
-
+    
     // insert code here...
+    Clase obj;
     std::cout << "Hello, World!  Tony \n";
+    obj.muestra();
     return 0;
 }
 
