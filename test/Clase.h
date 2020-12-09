@@ -13,7 +13,7 @@ class Clase
 {
 public:
     Clase() { x = 20; }
-    void muestra() { std::cout << x << std::endl; }
+    void muestra() { cout << x << endl; }
 private:
     int x;
 };
